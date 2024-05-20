@@ -109,7 +109,7 @@ def decrypt_folder(foldername, key):
             # If child is a folder, run the folder through the decrypt_folder function till no folders are left
             decrypt_folder(child, key)
 
-print("RANDSOMWARE")
+print("HASHGAURD")
 print("(1) Encrypt file || (2) Decrypt file")
 print("(3) Encrypt folder || (4) Decrypt folder")
 action = input("Choose program mode: ")
